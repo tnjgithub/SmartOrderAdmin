@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_100"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:id="@+id/header_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/grey_300"
+        android:padding="8dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_warning_connection"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Bağlantı Hatası!"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header_layout"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="5dp"
+        android:textSize="16dp"
+        android:textColor="@color/red_900"
+        android:text="İnternet bağlantısı sağlanamıyor. Lütfen bağlantınızı kontrol ediniz."/>
+
+
+
+</RelativeLayout>

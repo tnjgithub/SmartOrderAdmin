@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Smart Order</string>
+    <string name="action_settings">Setting</string>
+    <string name="action_add_favourite">Add to Favorites</string>
+    <string name="cancel_order">Cancel Order</string>
+    <string name="dialog_message">Are you approve your order?</string>
+    <string name="dialog_title">Information</string>
+    <string name="ok">Ok</string>
+    <string name="order_list">My Orders</string>
+    <string name="send_order">Send Order</string>
+    <string name="alert">Warning</string>
+    <string name="cancel">Back</string>
+</resources>

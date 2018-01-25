@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_200"
+    android:padding="5dp">
+
+    <RelativeLayout
+        android:id="@+id/order_linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="35dp">
+
+        <Button
+            android:id="@+id/btn_close"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:background="@color/red_900"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/white"
+            android:text="X"
+            style="@android:style/Widget.Holo.Light.Button"/>
+
+        <TextView
+            android:id="@+id/txt_order_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_close"
+            android:layout_margin="5dp"
+            android:textColor="@color/colorAccent"
+            android:textSize="16dp"
+            android:text="Açıklama"/>
+
+        <LinearLayout
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/txt_order_description"
+            android:background="@color/grey_500"/>
+
+        <ListView
+            android:id="@+id/order_listView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:divider="@color/black"
+            android:dividerHeight="1dp"
+            android:layout_below="@+id/line">
+
+        </ListView>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/grey_200"
+        android:padding="5dp"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:id="@+id/txt_total_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:text="Toplam Sipariş: 250 TL"
+            android:layout_centerVertical="true"/>
+
+        <Button
+            android:id="@+id/btn_status"
+            style="@android:style/Widget.Holo.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:textColor="@color/white"
+            android:text="Onayla" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

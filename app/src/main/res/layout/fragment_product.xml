@@ -1,0 +1,60 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".admin.FragmentProduct">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/grey_200"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:id="@+id/filterLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:orientation="vertical">
+            <View
+                android:id="@+id/view_fist"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/grey_500"/>
+
+            <Spinner
+                android:id="@+id/category_Spinner"
+                android:layout_width="match_parent"
+                android:layout_height="28dp"/>
+
+            <View
+                android:id="@+id/view_second"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/grey_500"/>
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/product_listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:divider="@color/grey_500"
+            android:dividerHeight="1dp"
+            android:layout_below="@+id/filterLayout"/>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="@dimen/fab_margin"
+            android:src="@drawable/plus" />
+
+    </RelativeLayout>
+
+
+</FrameLayout>

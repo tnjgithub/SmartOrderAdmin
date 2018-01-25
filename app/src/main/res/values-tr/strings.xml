@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Smart Order</string>
+    <string name="action_settings">Ayarlar</string>
+    <string name="action_add_favourite">Favorilere ekle</string>
+    <string name="cancel_order">Siparişi İptal Et</string>
+    <string name="dialog_message">Siparişinizi onaylıyor musunuz?</string>
+    <string name="dialog_title">Bilgi</string>
+    <string name="ok">Tamam</string>
+    <string name="order_list">Siparişlerim</string>
+    <string name="send_order">Sipariş Gönder</string>
+    <string name="alert">Uyarı</string>
+    <string name="cancel">Geri</string>
+</resources>

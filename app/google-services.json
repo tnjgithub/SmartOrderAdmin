@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "402139316343",
+    "firebase_url": "https://smart-order-43f4a.firebaseio.com",
+    "project_id": "smart-order-43f4a",
+    "storage_bucket": "smart-order-43f4a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:402139316343:android:daa46cb73e44d3ab",
+        "android_client_info": {
+          "package_name": "com.hanibey.smartorder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "402139316343-bn9beld1cbhcnv6srqfiva3ird42abtc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDy4HqznbVLKPbetLUuruJY83k43IF4PTE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:402139316343:android:d12f9540a13fb8dd",
+        "android_client_info": {
+          "package_name": "com.hanibey.smartorder.administration"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "402139316343-bn9beld1cbhcnv6srqfiva3ird42abtc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDy4HqznbVLKPbetLUuruJY83k43IF4PTE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

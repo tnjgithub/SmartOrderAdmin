@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+
+    <Button
+        android:id="@+id/btn_cancel"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentEnd="true"
+        android:background="@color/red_900"
+        android:text="X"
+        android:textColor="#fff" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/btn_cancel">
+
+        <EditText
+            android:id="@+id/edt_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableTint="@color/colorAccent"
+            android:drawablePadding="10dip"
+            android:drawableStart="@drawable/pencil"
+            android:hint="Kadegori Adı"
+            android:inputType="text" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:layout_alignParentBottom="true"
+        android:text="@string/save"
+        android:textAllCaps="false"
+        android:textColor="#fff"/>
+
+
+</RelativeLayout>

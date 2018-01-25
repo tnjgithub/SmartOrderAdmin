@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Smart Order</string>
+    <string name="alert"></string>
+    <string name="cancel">Zürück</string>
+    <string name="cancel_order"></string>
+</resources>

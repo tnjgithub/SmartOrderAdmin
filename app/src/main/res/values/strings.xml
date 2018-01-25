@@ -1,0 +1,78 @@
+<resources>
+
+    <item name="visible" type="id"/>
+    <item name="masked" type="id"/>
+
+    <string name="app_name">Smart Order Admin</string>
+    <string name="action_settings">Ayarlar</string>
+    <string name="action_add_favourite">Favorilere ekle</string>
+    <string name="action_search">Ara</string>
+    <string name="dialog_title">Bilgi</string>
+    <string name="dialog_message">Siparişinizi onaylıyor musunuz?</string>
+    <string name="send_order">Sipariş Gönder</string>
+    <string name="cancel_order">Siparişi İptal Et</string>
+    <string name="ok">Tamam</string>
+    <string name="save">Kaydet</string>
+    <string name="cancel">Geri</string>
+    <string name="alert">Uyarı</string>
+    <string name="error">Hata</string>
+    <string name="filter">Fitrele</string>
+    <string name="information">Bilgi</string>
+    <string name="order_list">Siparişlerim</string>
+    <string name="drawer_open">Aç</string>
+    <string name="drawer_close">Kapat</string>
+    <string name="not_empty_field">Lütfen boş alan bırakmayın!</string>
+    <string name="unexpected_error">Üzgünüz! Beklenmedik bir hata oluştu.</string>
+    <string name="uploading">Yükleniyor</string>
+    <string name="uploading_data_message">Veriler yükleniyor, lütfen bekleyin..</string>
+    <string name="login_text">Giriş Yap</string>
+    <string name="login_header_text">Kullanıcı Girişi</string>
+    <string name="user_name">Kullanıcı Adı</string>
+    <string name="password">Şifre</string>
+    <string name="username_password_warning">Lütfen kullanıcı adı ve şifrenizi giriniz</string>
+    <string name="checking">Kontrol Ediliyor…</string>
+    <string name="checking_message">Bilgiler Kontrol ediliyor, lütfen bekleyin…</string>
+    <string name="uncorrect_user">Geçersiz kullanıcı</string>
+    <string name="fual_login">Hatalı giriş yaptınız!</string>
+    <string name="no_image">Resim yok</string>
+    <string name="offline">Çevrimdışı</string>
+    <string name="online">Çevrimiçi</string>
+    <string name="background">Arkaplanda Çalışıyor</string>
+    <string name="client_count">Cihaz Sayısı</string>
+
+    <!-- navigation drawer item labels  -->
+    <string name="title_report">Rapor</string>
+    <string name="title_user">Kullanıcılar</string>
+    <string name="title_category">Kategoriler</string>
+    <string name="title_user_register">Kullanıcı Kaydı</string>
+    <string name="title_product">Ürünler</string>
+    <string name="title_product_register">Ürün Kaydı</string>
+
+    <string-array name="nav_drawer_labels">
+        <item>@string/title_report</item>
+        <item>@string/title_user</item>
+        <item>@string/title_category</item>
+        <item>@string/title_product</item>
+    </string-array>
+
+    <integer-array name="nav_drawer_icons">
+        <item>@drawable/ic_user</item>
+        <item>@drawable/ic_user</item>
+        <item>@drawable/ic_user</item>
+        <item>@drawable/ic_user</item>
+    </integer-array>
+
+    <!-- user types -->
+    <string name="type_admin">Admin</string>
+    <string name="type_cashregister">Kasa</string>
+    <string name="type_chef">Şef</string>
+
+    <string-array name="user_types_items">
+        <item>@string/type_admin</item>
+        <item>@string/type_cashregister</item>
+        <item>@string/type_chef</item>
+    </string-array>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

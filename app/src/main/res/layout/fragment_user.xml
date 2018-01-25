@@ -1,0 +1,47 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    tools:context=".admin.FragmentUser">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="1dp"
+            android:background="@color/colorAccent"
+            android:text="Kullanıcılar"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="24sp" />
+
+        <ListView
+            android:id="@+id/users_listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_header"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="5dp"
+            android:divider="@color/black"
+            android:dividerHeight="1dp"/>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="@dimen/fab_margin"
+            android:src="@drawable/ic_add_user" />
+
+    </RelativeLayout>
+
+
+
+</FrameLayout>
